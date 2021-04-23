@@ -79,6 +79,14 @@ a {
   text-transform: uppercase;
 }
 
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -90,14 +98,6 @@ a {
   text-align: center;
   margin-bottom: 50px;
   color: var(--title-color);
-}
-
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .header {
