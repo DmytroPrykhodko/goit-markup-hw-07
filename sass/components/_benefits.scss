@@ -4,21 +4,21 @@
 
 .benefits-list__item {
   width: 270px;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 120px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--second-bg-color);
+    margin-bottom: 30px;
+  }
 }
 
 .benefits-list__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.benefits-list__item::before {
-  content: '';
-  display: block;
-  height: 120px;
-  background-size: 70px 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--second-bg-color);
-  margin-bottom: 30px;
 }
 
 .icon-antenna::before {
@@ -41,4 +41,6 @@
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
+  @extend %uppercase;
+  color: var(--title-color);
 }

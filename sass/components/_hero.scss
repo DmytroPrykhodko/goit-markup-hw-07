@@ -24,4 +24,6 @@
 
   width: 696px;
   margin: 0 auto 30px;
+
+  @extend %uppercase;
 }

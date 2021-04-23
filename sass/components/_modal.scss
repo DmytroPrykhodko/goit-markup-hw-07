@@ -49,6 +49,11 @@
   margin-left: auto;
   margin-right: 8px;
   margin-top: 8px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
 }
 .close {
   color: #000000;
@@ -56,9 +61,4 @@
 .button--close:hover .close,
 .button--close:focus .close {
   color: var(--background-text-color);
-}
-
-.button--close:hover,
-.button--close:focus {
-  cursor: pointer;
 }
